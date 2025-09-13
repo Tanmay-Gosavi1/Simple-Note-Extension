@@ -1,59 +1,59 @@
-#📝 SimpleNote Extension
+# Simple Note Extension 📝✨
 
-A lightweight and efficient extension for SimpleNote that enhances your note-taking experience with extra productivity features. Built with simplicity and speed in mind.
+A lightweight and easy-to-use Chrome extension for quickly jotting down notes.  
+Your notes are stored locally in your browser and persist across sessions.
 
-🚀 Features
+## Features 🚀
 
-✍️ Create, edit, and organize notes with ease
+- Add, view, and delete notes instantly
+- Responsive and clean UI
+- Notes are saved automatically and persist after refresh
+- Keyboard shortcut: Press **Enter** to add a note
+- No account required, no data leaves your device
 
-🔍 Quick search for instant access
+## How to Use 🤓
 
-📂 Tagging system for better categorization
+- Click the extension icon to open the popup.
+- Type your note and press **Enter** ⏎ or click the **Add** button ✅.
+- Delete notes by clicking the trash icon 🗑️.
+- Notes are stored locally and will remain after closing or refreshing the browser.
 
-☁️ Seamless sync with your SimpleNote account
+## Installation 🛠️
 
-🌙 Clean, distraction-free interface (with dark mode support)
+### For Chrome/Edge (Unpacked)
 
-📦 Installation
+1. Clone or download this repository.
+2. Build the project (if using React, run `npm install` and `npm run build`).
+3. Go to `chrome://extensions/` (or `edge://extensions/`).
+4. Enable **Developer mode** (top right).
+5. Click **Load unpacked** and select the folder containing `manifest.json`.
 
-Clone the repository:
+## Commands You Can Use 💻
 
-git clone https://github.com/your-username/simplenote-extension.git
-cd simplenote-extension
+- `npm install` – Install dependencies
+- `npm run build` – Build the extension for production
+- `npm start` – Run the extension in development mode
 
+## Technologies Used 🧑‍💻
 
-Install dependencies:
+- React
+- Tailwind CSS
+- [Lucide Icons](https://lucide.dev/)
 
-npm install
+## Customization 🎨
 
+- To sync notes across devices, you can switch from `localStorage` to `chrome.storage.sync` (see code comments).
+- Style and layout can be customized via Tailwind classes in `App.jsx`.
 
-Build the extension:
+## Contributing 🤝
 
-npm run build
+Pull requests and suggestions are welcome!  
+Feel free to fork the repository and submit improvements.
 
+## License 📄
 
-Load the extension in your browser:
+This project is licensed under the MIT License.
 
-Open Chrome (or Edge) → chrome://extensions/
+---
 
-Enable Developer Mode
-
-Click Load unpacked and select the dist/ folder
-
-📖 Usage
-
-Open the extension from your browser toolbar
-
-Log in with your SimpleNote account
-
-Start writing, searching, and managing your notes
-
-Your notes sync automatically across devices
-
-🛠️ Tech Stack
-
-Frontend: React + TailwindCSS
-
-Build Tool: Vite
-
-API: SimpleNote API
+**Made with ❤️ by Tanmay Gosavi**
